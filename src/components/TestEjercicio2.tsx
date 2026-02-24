@@ -14,6 +14,28 @@ const questions = [
     options: ["Fetch API", "Intersection Observer", "Canvas API"],
     answer: "Intersection Observer",
   },
+  {
+    question: "¿Cuál es el principal beneficio del Lazy Loading?",
+    options: [
+      "Aumenta el tamaño de las imágenes",
+      "Mejora la velocidad de carga inicial",
+      "Hace las imágenes más nítidas",
+    ],
+    answer: "Mejora la velocidad de carga inicial",
+  },
+  {
+    question: "¿Qué atributo HTML se puede usar para Lazy Loading nativo?",
+    options: ["data-src", "lazyload", "loading='lazy'"],
+    answer: "loading='lazy'",
+  },
+  {
+    question: "¿El Lazy Loading es útil para todas las imágenes de una página?",
+    options: [
+      "Sí, siempre",
+      "No, solo para las que no están en el viewport inicial",
+    ],
+    answer: "No, solo para las que no están en el viewport inicial",
+  },
 ];
 const TestEjercicio2 = () => {
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>(

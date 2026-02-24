@@ -1,5 +1,5 @@
 import LazyImage from "./LazyImage";
-import TestEjercicio2 from "./TestEjercicio2";
+import TestEjercicio2 from "./TestEjercicio2"; // Importa el componente del test
 const Ejercicio2 = () => {
  const images = [
  "https://via.placeholder.com/600.webp",
@@ -20,7 +20,7 @@ en la pantalla.
 />
  ))}
  </div>
- <TestEjercicio2 />
+ <TestEjercicio2 /> {/* Agrega el test al final de la página */}
  </div>
  );
 };
